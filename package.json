@@ -1,0 +1,14 @@
+{
+  "name": "my-todos",
+  "private": true,
+  "packageManager": "pnpm@10.30.3",
+  "engines": { "node": ">=22" },
+  "pnpm": { "onlyBuiltDependencies": ["esbuild"] },
+  "scripts": {
+    "dev": "pnpm --filter @my-todos/web dev",
+    "build": "pnpm --filter @my-todos/web build",
+    "preview": "pnpm --filter @my-todos/web preview",
+    "typecheck": "pnpm --filter @my-todos/web exec tsc -b",
+    "test": "pnpm --filter @my-todos/web test"
+  }
+}

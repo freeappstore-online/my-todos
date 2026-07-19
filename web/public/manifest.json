@@ -1,0 +1,9 @@
+{
+  "name": "My Todos",
+  "short_name": "My Todos",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "orientation": "any"
+}
